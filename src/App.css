@@ -1,0 +1,57 @@
+
+*{
+  user-select: none;
+  }
+  #right{
+    background-image: url("../Asset/4.gif");
+    background-size:cover;
+    background-repeat: no-repeat;
+   
+  }
+  
+  
+  
+  #left {
+   
+    overflow: hidden;
+  }
+  
+  .recent-messages-container {
+    max-height: 500px;
+    overflow-y: scroll;
+    transition: transform 0.5s ease;
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.1);
+  }
+  .recent-messages-container::-webkit-scrollbar {
+    width: 0; 
+  }
+  
+  .recent-message {
+    background-color: #E2E8F0;
+    padding: 8px;
+    margin: 8px;
+    border-radius: 8px;
+    font-size: 14px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    transition: background-color 0.3s ease; 
+    transition-duration: 200;
+  }
+  
+  .recent-message:hover {
+    background-color: #8c8e91;
+    scale: 1.03;
+  }
+  
+  
+  .recent-message div {
+    flex-grow: 1;
+  }
+  
+  #left button:hover {
+    background-color: #e2e8f0;
+  }
+  
+  
+  
